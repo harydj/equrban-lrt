@@ -10,6 +10,15 @@ class m_user extends Model {
     protected $table = 'tb_auth';
     protected $table_desc = 'tb_role';
 
+    protected $protectFields = false;
+    protected $allowedFields = [
+        'nipp',
+        'nama',
+        'email',
+        'password',
+        'id_role'
+    ];
+
     public function __construct() {
         parent::__construct();
     }

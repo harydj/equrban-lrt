@@ -14,9 +14,7 @@
                 "-dxdebug.mode=debug",
                 "-dxdebug.start_with_request=yes",
                 "-S",
-                "localhost:8080",
-                "-t",
-                "localhost/equrban-lrt/"
+                "localhost:8080"
             ],
             "env": {
                 "XDEBUG_MODE" : "debug",
