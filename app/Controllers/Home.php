@@ -24,13 +24,15 @@ class Home extends BaseController
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
 
-        //ambil data dari database untuk validasi login
+        //fetch data from database for login validation
         $model = new m_login();
 
         $data = $model->where('email', $email)->first();
         if ($data) {
             $pass = $data['password'];
-            $verify_pass = (md5($password) === $pass);
+            // Verify password with hashed password bcrypt
+            $verify_pass = password_verify($password, $pass);
+            
             if ($verify_pass) {
                 $ses_data = [
                     'id' => $data['id'],
@@ -43,7 +45,7 @@ class Home extends BaseController
                 ];
                 $session->set($ses_data);
                 if ($data['is_active'] == 0) {
-                    $session->setFlashdata('msg', 'Email tidak aktif');
+                    $session->setFlashdata('msg', 'Akun tidak aktif');
                     return redirect()->to(base_url('/'));
                 } else {
                     if ($session->id_role == '1') {
@@ -73,6 +75,6 @@ class Home extends BaseController
             setcookie($key, '', time() - 3600);
         }
         $session->destroy();
-        return redirect()->to('/');
+        return redirect()->to(base_url('/'));
     }
 }

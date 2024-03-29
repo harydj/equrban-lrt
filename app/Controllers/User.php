@@ -30,11 +30,13 @@ class User extends BaseController
     {         
             $model = new m_user();
             $nama = $this->request->getVar('nama');
+            $password = $this->request->getVar('password');
+            $hash = password_hash($password, PASSWORD_BCRYPT);
             $data = [
                 'nipp'        => $this->request->getVar('nipp'),
                 'nama'        => $nama,
                 'email'       => $this->request->getVar('email'),
-                'password'    => $this->request->getVar('password'),
+                'password'    => $hash,
                 'id_role'     => $this->request->getVar('role_user')
             ];
 
@@ -44,37 +46,55 @@ class User extends BaseController
                 $session = session();
                 $session->setFlashdata('success', $successMessage);
                 return redirect()->to(base_url('admin/user'));
-                // redirect(base_url("admin/user"),'refresh');
+            } else {
+                $failedMessage = 'Gagal menambahkan user';
+                $session = session();
+                $session->setFlashdata('failed', $failedMessage);
+                return redirect()->to(base_url('admin/user'));
             }
     }
 
-    public function show($id)
+    public function edit_user()
     {
-        // Logic to display a specific user by ID
-    }
+        $model = new m_user();
 
-    public function create()
-    {
-        // Logic to show the user creation form
-    }
+        $nipp = $this->request->getVar('nipp');
 
-    public function store()
-    {
-        // Logic to store a new user in the database
-    }
+        $nama = $this->request->getVar('nama');
+            $data = [
+                'nama'        => $nama,
+                'nipp'        => $this->request->getVar('nipp'),
+                'email'       => $this->request->getVar('email'),
+                'password'    => $this->request->getVar('password'),
+                'id_role'     => $this->request->getVar('role_user'),
+                'is_active'   => $this->request->getVar('status')
+            ];
 
-    public function edit($id)
-    {
-        // Logic to show the user edit form
-    }
+        // Check if the password field is being updated
+            $password = $this->request->getVar('password');
+            if (!empty($password)) {
+                if ($model->passwordsMatch($data['password'], $data['nipp'])) {
+                    // Password Not Changed
+                }else{
+                    // Hash the plaintext password using bcrypt
+                    $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+                    $data['password'] = $hashedPassword;
+                }
+            }
 
-    public function update($id)
-    {
-        // Logic to update a user in the database
-    }
+            $hasil = $model->updateUser($data);
 
-    public function destroy($id)
-    {
-        // Logic to delete a user from the database
+            if ($hasil) {
+                $successMessage = 'User '.$nama.' telah diupdate';
+                $session = session();
+                $session->setFlashdata('edit_success', $successMessage);
+                return redirect()->to(base_url('admin/user'));
+            } else {
+                $failedMessage = 'Gagal update user';
+                $session = session();
+                $session->setFlashdata('edit_failed', $failedMessage);
+                return redirect()->to(base_url('admin/user'));
+            }
+
     }
 }

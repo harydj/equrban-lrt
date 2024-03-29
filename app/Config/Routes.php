@@ -15,3 +15,4 @@ $routes->get('logout', 'Home::logout');
 $routes->get('admin/user', 'User::index');
 $routes->get('Admin/user', 'User::index');
 $routes->post('admin/add_user', 'User::add_user');
+$routes->post('admin/edit_user', 'User::edit_user');

@@ -23,6 +23,15 @@
             </button>
           </div>        
         <?php endif; ?>
+        <?php if (session()->getFlashdata('edit_success')) : ?>
+          <div id="flashMessage" class="badge bg-gradient-success" role="alert">
+            <span class="alert-icon"><i class="ni ni-like-2"></i></span>
+            <span class="alert-text"><strong>Berhasil! </strong><?= session()->getFlashdata('edit_success') ?></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+          </div>        
+        <?php endif; ?>
         <!-- <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
             <div class="input-group">
