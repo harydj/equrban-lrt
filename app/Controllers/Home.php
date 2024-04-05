@@ -7,6 +7,8 @@ use App\Models\m_login;
 
 class Home extends BaseController
 {
+
+
     public function index()
     {
         $data = [
@@ -49,9 +51,9 @@ class Home extends BaseController
                     return redirect()->to(base_url('/'));
                 } else {
                     if ($session->id_role == '1') {
-                        return redirect()->to(base_url('dashboard/admin'));
+                        return redirect()->to(base_url('admin/dashboard'));
                     } elseif ($session->id_role == '2') {
-                        return redirect()->to(base_url('dashboard/penabung'));
+                        return redirect()->to(base_url('penabung/dashboard'));
                     }
                 }
                 

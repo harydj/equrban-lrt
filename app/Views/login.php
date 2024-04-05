@@ -33,9 +33,9 @@
               </span>
             </button>
               <ul class="navbar-nav d-lg-block d-none">
-                <li class="nav-item d-flex align-items-center">
+                <!-- <li class="nav-item d-flex align-items-center">
                   <a href="" class="btn btn-round btn-sm mb-0 btn-outline-primary me-2">Cek Saldo</a>
-                </li>
+                </li> -->
               </ul>
             <!-- </div> -->
           </div>

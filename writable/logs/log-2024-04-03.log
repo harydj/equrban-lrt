@@ -1,0 +1,881 @@
+INFO - 2024-04-03 01:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 01:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-03 02:23:32 --> ParseError: syntax error, unexpected variable "$buktiTransfer"
+in APPPATH\Controllers\Formulir_Penabung.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\equrban-lrt\\app\\Controllers\\Formulir_Penabung.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Formulir_Penabung')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Formulir_Penabung')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Formulir_Penabung', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 02:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-03 02:26:57 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Formulir_Penabung.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 02:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-03 02:27:17 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Formulir_Penabung.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 02:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-03 02:28:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\m_formulir_penabung.php(53): CodeIgniter\Model->__call('db_table', [...])
+ 4 APPPATH\Controllers\Formulir_Penabung.php(60): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 02:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-03 02:29:01 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\m_formulir_penabung.php(53): CodeIgniter\Model->__call('db', [...])
+ 4 APPPATH\Controllers\Formulir_Penabung.php(60): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 02:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-03 02:29:20 --> mysqli_sql_exception: Unknown column 'id_penabung' in 'field list' in C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\equrban-lrt\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\equrban-lrt\app\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\equrban-lrt\app\Controllers\Formulir_Penabung.php(60): App\Models\m_formulir_penabung->insertPenyetoran(Array)
+#6 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+#7 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+#8 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\equrban-lrt\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 02:29:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_penabung' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penyetoran_dana` (`id_penabung`, `tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (:id_penabung:, :tanggal_penyetoran:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :metode_pembayaran:, :jumlah_setoran:)', [...], false)
+ 2 APPPATH\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Formulir_Penabung.php(60): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 02:29:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_penabung' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penyetoran_dana` (`id_penabung`, `tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'2\', \'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penyetoran_dana` (`id_penabung`, `tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'2\', \'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penyetoran_dana` (`id_penabung`, `tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (:id_penabung:, :tanggal_penyetoran:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :metode_pembayaran:, :jumlah_setoran:)', [...], false)
+ 4 APPPATH\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Formulir_Penabung.php(60): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 02:29:20 --> [Caused by] mysqli_sql_exception: Unknown column 'id_penabung' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_penyetoran_dana` (`id_penabung`, `tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'2\', \'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penyetoran_dana` (`id_penabung`, `tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'2\', \'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penyetoran_dana` (`id_penabung`, `tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'2\', \'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penyetoran_dana` (`id_penabung`, `tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (:id_penabung:, :tanggal_penyetoran:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :metode_pembayaran:, :jumlah_setoran:)', [...], false)
+ 5 APPPATH\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Formulir_Penabung.php(60): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 02:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-03 02:30:23 --> mysqli_sql_exception: Column 'nama_pengirim' cannot be null in C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\equrban-lrt\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\equrban-lrt\app\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\equrban-lrt\app\Controllers\Formulir_Penabung.php(61): App\Models\m_formulir_penabung->insertPenyetoran(Array)
+#6 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+#7 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+#8 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\equrban-lrt\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 02:30:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_pengirim' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (:tanggal_penyetoran:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :metode_pembayaran:, :jumlah_setoran:)', [...], false)
+ 2 APPPATH\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Formulir_Penabung.php(61): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 02:30:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_pengirim' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (:tanggal_penyetoran:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :metode_pembayaran:, :jumlah_setoran:)', [...], false)
+ 4 APPPATH\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Formulir_Penabung.php(61): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 02:30:23 --> [Caused by] mysqli_sql_exception: Column 'nama_pengirim' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANK OF AMERICA N.A\', \'Transfer Bank\', \'125000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (:tanggal_penyetoran:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :metode_pembayaran:, :jumlah_setoran:)', [...], false)
+ 5 APPPATH\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Formulir_Penabung.php(61): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 02:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-03 02:30:44 --> mysqli_sql_exception: Column 'nama_pengirim' cannot be null in C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\equrban-lrt\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\equrban-lrt\app\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\equrban-lrt\app\Controllers\Formulir_Penabung.php(61): App\Models\m_formulir_penabung->insertPenyetoran(Array)
+#6 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+#7 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+#8 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\equrban-lrt\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 02:30:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_pengirim' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (:tanggal_penyetoran:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :metode_pembayaran:, :jumlah_setoran:)', [...], false)
+ 2 APPPATH\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Formulir_Penabung.php(61): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 02:30:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_pengirim' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANGKOK BANK PCL\', \'Transfer Bank\', \'123555\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANGKOK BANK PCL\', \'Transfer Bank\', \'123555\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (:tanggal_penyetoran:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :metode_pembayaran:, :jumlah_setoran:)', [...], false)
+ 4 APPPATH\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Formulir_Penabung.php(61): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 02:30:44 --> [Caused by] mysqli_sql_exception: Column 'nama_pengirim' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANGKOK BANK PCL\', \'Transfer Bank\', \'123555\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANGKOK BANK PCL\', \'Transfer Bank\', \'123555\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (\'Hariyanto\', NULL, \'12345\', \'DEUTSCHE BANK AG\', \'LRT Jabodebek\', \'67789\', \'BANGKOK BANK PCL\', \'Transfer Bank\', \'123555\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penyetoran_dana` (`tanggal_penyetoran`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `metode_pembayaran`, `jumlah_setoran`) VALUES (:tanggal_penyetoran:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :metode_pembayaran:, :jumlah_setoran:)', [...], false)
+ 5 APPPATH\Models\m_formulir_penabung.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Formulir_Penabung.php(61): App\Models\m_formulir_penabung->insertPenyetoran([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 02:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 02:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 03:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-03 03:02:50 --> mysqli_sql_exception: Table 'equrban_lrt.tb_keterangan' doesn't exist in C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tb_trx_...', 0)
+#1 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_trx_...')
+#2 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_trx_...')
+#3 C:\xampp\htdocs\equrban-lrt\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_...', Array, false)
+#4 C:\xampp\htdocs\equrban-lrt\app\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\equrban-lrt\app\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+#6 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+#7 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+#8 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\equrban-lrt\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 03:02:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'equrban_lrt.tb_keterangan' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', [], false)
+ 2 APPPATH\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 03:02:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'equrban_lrt.tb_keterangan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', [], false)
+ 4 APPPATH\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 03:02:50 --> [Caused by] mysqli_sql_exception: Table 'equrban_lrt.tb_keterangan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', [], false)
+ 5 APPPATH\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-03 03:03:25 --> mysqli_sql_exception: Table 'equrban_lrt.tb_keterangan' doesn't exist in C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tb_trx_...', 0)
+#1 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_trx_...')
+#2 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_trx_...')
+#3 C:\xampp\htdocs\equrban-lrt\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_...', Array, false)
+#4 C:\xampp\htdocs\equrban-lrt\app\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\equrban-lrt\app\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+#6 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+#7 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+#8 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\equrban-lrt\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 03:03:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'equrban_lrt.tb_keterangan' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', [], false)
+ 2 APPPATH\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 03:03:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'equrban_lrt.tb_keterangan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', [], false)
+ 4 APPPATH\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 03:03:25 --> [Caused by] mysqli_sql_exception: Table 'equrban_lrt.tb_keterangan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', [], false)
+ 5 APPPATH\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-03 03:03:26 --> mysqli_sql_exception: Table 'equrban_lrt.tb_keterangan' doesn't exist in C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tb_trx_...', 0)
+#1 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_trx_...')
+#2 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_trx_...')
+#3 C:\xampp\htdocs\equrban-lrt\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_...', Array, false)
+#4 C:\xampp\htdocs\equrban-lrt\app\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\equrban-lrt\app\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+#6 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+#7 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+#8 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\equrban-lrt\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 03:03:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'equrban_lrt.tb_keterangan' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', [], false)
+ 2 APPPATH\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 03:03:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'equrban_lrt.tb_keterangan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', [], false)
+ 4 APPPATH\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 03:03:26 --> [Caused by] mysqli_sql_exception: Table 'equrban_lrt.tb_keterangan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_trx_penabung`.*, `penabung_auth`.`id` as `id_penabung`, `penabung_auth`.`nama` as `nama_penabung`, `penabung_auth`.`nipp`, `tb_status_transaksi`.`status`, `tb_keterangan`.`keterangan`, `admin_auth`.`nama` as `nama_approver`, `setor`.`nama_pengirim` as `nama_pengirim_k`, `setor`.`rekening_pengirim` `rekening_pengirim_k`, `setor`.`nama_penerima` `nama_penerima_k`, `setor`.`rekening_penerima` `rekening_penerima_k`, `setor`.`metode_pembayaran` `metode_pembayaran_k`, `setor`.`bukti_transfer` `bukti_transfer_k`, `tarik`.`nama_pengirim` `nama_pengirim_d`, `tarik`.`rekening_pengirim` `rekening_pengirim_d`, `tarik`.`nama_penerima` `nama_penerima_d`, `tarik`.`rekening_penerima` `rekening_penerima_d`, `tarik`.`metode_pembayaran` `metode_pembayaran_d`, `tarik`.`bukti_transfer` `bukti_transfer_d`
+FROM `tb_trx_penabung`
+LEFT JOIN `tb_auth` as `penabung_auth` ON `penabung_auth`.`id` = `tb_trx_penabung`.`id_penabung`
+LEFT JOIN `tb_auth` as `admin_auth` ON `admin_auth`.`id` = `tb_trx_penabung`.`id_admin`
+LEFT JOIN `tb_penyetoran_dana` `setor` ON `setor`.`id_penyetoran` = `tb_trx_penabung`.`id_penyetoran`
+LEFT JOIN `tb_penarikan_dana` `tarik` ON `tarik`.`id_penarikan` = `tb_trx_penabung`.`id_penarikan`
+JOIN `tb_status_transaksi` ON `tb_status_transaksi`.`id` = `tb_trx_penabung`.`id_status`
+JOIN `tb_keterangan` ON `tb_keterangan`.`id_keterangan` = `tb_trx_penabung`.`id_keterangan`
+INNER JOIN (SELECT `id_penabung`, MAX(id_transaksi) AS max_id_transaksi
+FROM `tb_trx_penabung`
+GROUP BY `id_penabung`, `id_keterangan`) m ON `tb_trx_penabung`.`id_penabung` = `m`.`id_penabung` AND `tb_trx_penabung`.`id_transaksi` = `m`.`max_id_transaksi`', [], false)
+ 5 APPPATH\Models\m_transaksi_penabung.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi_Penabung.php(13): App\Models\m_transaksi_penabung->getTransaksiPenabung()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Transaksi_Penabung->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi_Penabung))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 03:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 03:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 03:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 03:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 03:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 03:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 03:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 06:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-03 07:00:23 --> mysqli_sql_exception: Unknown column 'id_penabung' in 'field list' in C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\equrban-lrt\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\equrban-lrt\app\Models\m_formulir_penabung.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\equrban-lrt\app\Controllers\Formulir_Penabung.php(106): App\Models\m_formulir_penabung->insertPenarikan(Array)
+#6 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penarikan()
+#7 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+#8 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\equrban-lrt\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 07:00:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_penabung' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penarikan_dana` (`id_penabung`, `tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (:id_penabung:, :tanggal_pengajuan:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :jumlah_setoran:, :metode_pembayaran:)', [...], false)
+ 2 APPPATH\Models\m_formulir_penabung.php(66): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Formulir_Penabung.php(106): App\Models\m_formulir_penabung->insertPenarikan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penarikan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 07:00:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_penabung' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penarikan_dana` (`id_penabung`, `tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'36\', \'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penarikan_dana` (`id_penabung`, `tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'36\', \'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penarikan_dana` (`id_penabung`, `tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (:id_penabung:, :tanggal_pengajuan:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :jumlah_setoran:, :metode_pembayaran:)', [...], false)
+ 4 APPPATH\Models\m_formulir_penabung.php(66): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Formulir_Penabung.php(106): App\Models\m_formulir_penabung->insertPenarikan([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penarikan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 07:00:23 --> [Caused by] mysqli_sql_exception: Unknown column 'id_penabung' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_penarikan_dana` (`id_penabung`, `tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'36\', \'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penarikan_dana` (`id_penabung`, `tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'36\', \'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penarikan_dana` (`id_penabung`, `tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'36\', \'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penarikan_dana` (`id_penabung`, `tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (:id_penabung:, :tanggal_pengajuan:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :jumlah_setoran:, :metode_pembayaran:)', [...], false)
+ 5 APPPATH\Models\m_formulir_penabung.php(66): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Formulir_Penabung.php(106): App\Models\m_formulir_penabung->insertPenarikan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penarikan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 07:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-03 07:02:16 --> mysqli_sql_exception: Unknown column 'bank_pengirim' in 'field list' in C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\equrban-lrt\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\equrban-lrt\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\equrban-lrt\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\equrban-lrt\app\Models\m_formulir_penabung.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\equrban-lrt\app\Controllers\Formulir_Penabung.php(106): App\Models\m_formulir_penabung->insertPenarikan(Array)
+#6 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penarikan()
+#7 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+#8 C:\xampp\htdocs\equrban-lrt\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\equrban-lrt\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-03 07:02:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bank_pengirim' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penarikan_dana` (`tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (:tanggal_pengajuan:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :jumlah_setoran:, :metode_pembayaran:)', [...], false)
+ 2 APPPATH\Models\m_formulir_penabung.php(66): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Formulir_Penabung.php(106): App\Models\m_formulir_penabung->insertPenarikan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penarikan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 07:02:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'bank_pengirim' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penarikan_dana` (`tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penarikan_dana` (`tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penarikan_dana` (`tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (:tanggal_pengajuan:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :jumlah_setoran:, :metode_pembayaran:)', [...], false)
+ 4 APPPATH\Models\m_formulir_penabung.php(66): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Formulir_Penabung.php(106): App\Models\m_formulir_penabung->insertPenarikan([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penarikan()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 07:02:16 --> [Caused by] mysqli_sql_exception: Unknown column 'bank_pengirim' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb_penarikan_dana` (`tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_penarikan_dana` (`tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_penarikan_dana` (`tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (\'2024-04-03\', \'DKM LRT Jabodebek\', \'1234125\', \'DEUTSCHE BANK AG\', \'Faridah Nurhan\', \'123124124\', \'BANK OF CHINA (HONG KONG) LIMITED\', \'91919124\', \'Transfer Bank\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_penarikan_dana` (`tanggal_pengajuan`, `nama_pengirim`, `rekening_pengirim`, `bank_pengirim`, `nama_penerima`, `rekening_penerima`, `bank_penerima`, `jumlah_setoran`, `metode_pembayaran`) VALUES (:tanggal_pengajuan:, :nama_pengirim:, :rekening_pengirim:, :bank_pengirim:, :nama_penerima:, :rekening_penerima:, :bank_penerima:, :jumlah_setoran:, :metode_pembayaran:)', [...], false)
+ 5 APPPATH\Models\m_formulir_penabung.php(66): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Formulir_Penabung.php(106): App\Models\m_formulir_penabung->insertPenarikan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penarikan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 07:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-03 07:16:17 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Formulir_Penabung.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penyetoran()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 07:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 07:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-03 08:25:14 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Formulir_Penabung.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Formulir_Penabung->add_penarikan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir_Penabung))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-03 08:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 08:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

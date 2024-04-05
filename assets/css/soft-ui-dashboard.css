@@ -5592,7 +5592,7 @@ fieldset:disabled .btn {
   --bs-pagination-bg: #fff;
   --bs-pagination-border-width: 1px;
   --bs-pagination-border-color: #dee2e6;
-  --bs-pagination-border-radius: 0.5rem;
+  --bs-pagination-border-radius: 0.5rem;  
   --bs-pagination-hover-color: #830866;
   --bs-pagination-hover-bg: #e9ecef;
   --bs-pagination-hover-border-color: #dee2e6;
@@ -20563,7 +20563,7 @@ fieldset:disabled .btn {
 .btn-success:focus,
 .btn.bg-gradient-success.focus,
 .btn.bg-gradient-success:focus {
-  color: #fff;
+  color: #000;
 }
 
 .btn-outline-success {
@@ -20844,12 +20844,12 @@ fieldset:disabled .btn {
 
 .btn-success,
 .btn.bg-gradient-success {
-  color: #fff;
+  color: #000;
 }
 
 .btn-success:hover,
 .btn.bg-gradient-success:hover {
-  color: #fff;
+  color: #000;
 }
 
 .btn-warning,

@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\m_user;
+use App\Models\m_tabungan;
 
 class User extends BaseController
 {
@@ -14,6 +15,8 @@ class User extends BaseController
 
         $data = [
             'title' => 'E-Qurban LRT Jabodebek',
+            'active_page' => 'user',
+            'Menu'  => 'User Management',
             'session' => session(),
             'user' => $query->getResult()
         ];
@@ -42,11 +45,33 @@ class User extends BaseController
 
             $hasil = $model->insert($data);
             if ($hasil) {
-                $successMessage = 'User '.$nama.' telah ditambahkan';
-                $session = session();
-                $session->setFlashdata('success', $successMessage);
-                return redirect()->to(base_url('admin/user'));
-            } else {
+                    // Jika insert berhasil, tambahkan juga data ke tb_tabungan jika id_role adalah 2
+                if ($data['id_role'] == 2) {
+                    $tbTabunganModel = new m_tabungan();
+                    $tabunganData = [
+                        'id_penabung' => $hasil,
+                        'saldo' => 0, // Atur saldo awal sesuai kebutuhan
+                        'nipp' => $data['nipp']
+                    ];
+                    $addtabungan = $tbTabunganModel->insert($tabunganData);
+                    if($addtabungan) {
+                        $successMessage = 'User '.$nama.' telah ditambahkan';
+                        $session = session();
+                        $session->setFlashdata('success', $successMessage);
+                        return redirect()->to(base_url('admin/user'));
+                    }else{
+                        $failedMessage = 'Tabungan '.$nama.' gagal didaftarkan';
+                        $session = session();
+                        $session->setFlashdata('failed', $failedMessage);
+                        return redirect()->to(base_url('admin/user'));
+                    }
+                }else{
+                    $successMessage = 'Admin '.$nama.' telah ditambahkan';
+                        $session = session();
+                        $session->setFlashdata('success', $successMessage);
+                        return redirect()->to(base_url('admin/user'));
+                }           
+            }else {
                 $failedMessage = 'Gagal menambahkan user';
                 $session = session();
                 $session->setFlashdata('failed', $failedMessage);

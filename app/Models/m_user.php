@@ -35,6 +35,21 @@ class m_user extends Model {
         return $query;
     }
 
+    public function addtabungan($data)
+    {
+        $user = $this->where('email', $data['email'])
+                    ->where('is_active', '1')
+                    ->first();
+        $tabungan = [
+                'id_penabung' =>  $user['id'],
+                'saldo'       => '0',
+                'nipp'        => $user['nipp']
+            ];
+        $hasil = $this->insert($tabungan);
+        
+        return $hasil;
+    }
+
     public function updateUser($data){
         // Fetch user data from database by NIPP
         $builder = $this->db->table('tb_auth');

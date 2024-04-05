@@ -20,8 +20,8 @@
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/1f9ad9d35b.js" crossorigin="anonymous"></script>
   <!-- CSS Files -->
-  <link id="pagestyle" href="<?php echo base_url(); ?>assets/css/soft-ui-dashboard.css?v=1.0.10" rel="stylesheet">
-  <link id="pagestyle" href="../assets/css/soft-ui-dashboard.css?v=1.0.7" rel="stylesheet" />
+  <link id="pagestyle" href="<?php echo base_url(); ?>assets/css/soft-ui-dashboard.css?v=1.0.21" rel="stylesheet">
+  <link id="pagestyle" href="../assets/css/soft-ui-dashboard.css?v=1.0.18" rel="stylesheet" />
   <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
   <!-- Datatables -->
@@ -36,4 +36,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
   <script src="https://cdn.datatables.net/2.0.3/js/dataTables.bootstrap5.js"></script> -->
+  <!-- Select2 Dropdown Assets-->
+  <link href="<?php echo base_url(); ?>assets/css/select2.css?v=1.0.5" rel="stylesheet" />
+  <script src="<?php echo base_url(); ?>assets/js/select2.min.js"></script>
 </head>
